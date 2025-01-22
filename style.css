@@ -10,10 +10,12 @@
     font-weight: 300;
     font-style: normal; 
     
+    
   }
  
   li {
     list-style: none;
+    cursor: pointer;;
   }
 
 
@@ -51,6 +53,7 @@
     width: 582px;
     font-size: 52px;
     font-family: 800;
+    margin-bottom: 20px;
     
   }
   .primary-btn {
@@ -60,6 +63,7 @@
     margin-top: 16px;
     padding: 10px;
     border: none;
+    margin-top: 30px;
     
   }
   .right-icon {
@@ -107,11 +111,13 @@
     .banner-section {
       flex-direction: column-reverse;
       margin: 10px;
+      text-align: center;
     }
 
     .banner-text {
       width: 282px;
-      margin-left: 10px;
+      margin: 0;
+      
       
     }
     .banner-title {
@@ -124,13 +130,16 @@
       
     }
     .banner-img {
-      margin-left: 80px ;
+      margin: 0;
       
     }
     .brand-list {
       grid-template-columns:repeat(1, 1fr);
-      gap: 20px;
+      gap: 30px;
   
+    }
+    .brand-img {
+      width: 100px;
     }
     .brand-name {
       width: 100px;
@@ -215,6 +224,7 @@
     align-items: center;
     gap: 90px;
     
+    
   }
   .Featured-title {
     font-size: 35px;
@@ -253,7 +263,7 @@
       width: 100%;
     }
     .Featured {
-      flex-direction: column;
+      flex-direction: column-reverse;
       width: 100%;
       text-align: center;
     }
@@ -299,6 +309,10 @@
     gap: 30px;
     color: white;
   }
+  .footer-span {
+    margin-top: 15px;
+    display: block;
+  }
 
   .footer-section {
     color: white;
@@ -306,5 +320,7 @@
   }
 
   @media screen and (max-width:575px) {
-
+footer {
+  margin-top: 30px;
+}
   }
